@@ -3,3 +3,4 @@ Add-Frontend
 Add-Backend
 Add-Forms
 Add-Security
+Add-Security2
