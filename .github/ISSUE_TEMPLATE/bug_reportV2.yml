@@ -1,0 +1,17 @@
+name: "🐞 Reportar Bug"
+description: "Use este template para reportar um bug"
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: "Descrição do bug"
+      description: "Explique o que aconteceu"
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: "Passos para reproduzir"
+      description: "Liste os passos para chegar ao erro"
